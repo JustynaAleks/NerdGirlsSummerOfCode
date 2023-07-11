@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #ca92ff;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Sans';
+}
+
+.imgGrl{
+    background-image: url(./girl.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 55vh;
+    height: 55vh;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 0.6em;
+    z-index: 1;
+    font-size: 6em;
+    color: #e4ffa7;
+}
